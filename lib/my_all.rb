@@ -10,6 +10,4 @@ def my_all?(collection)
   block_return_values.include?(false) ? false : true 
 end
 
-
-
 my_all?([1,2,3]){|i| i<2}
